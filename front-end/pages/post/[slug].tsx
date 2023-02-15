@@ -7,8 +7,8 @@ const Post = (props:any) => {
     console.log(props, 'props')
     return (
         <article>
-            <h1>{title}</h1>
-            <span>By {name}</span>
+            <h1>{title && title}</h1>
+            <span>By {name && name}</span>
 
         </article>
     )
